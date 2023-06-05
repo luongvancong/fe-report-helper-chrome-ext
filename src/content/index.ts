@@ -8,17 +8,13 @@ function countTotalBug(assignee: string) {
     domList.forEach((x) => {
       let haveBug = x.querySelector('img[alt="Issue type: Bug"]');
       if (haveBug) {
-        let avatarDom = x.querySelector('._1e0c1txw._4cvr1h6o._19bvftgi');
+        let avatarDom = x.querySelector('.css-1gr7gcv');
 
         if (avatarDom) {
-          const spanHasImageDom = avatarDom.querySelector('.css-ob4lje');
-
-          if (spanHasImageDom) {
-            const style = spanHasImageDom.getAttribute('aria-label');
-            if (style && style.includes(assignee)) {
-              totalBug++;
+            const alt = avatarDom.getAttribute('alt');
+            if (alt && alt.includes(assignee)) {
+                totalBug++;
             }
-          }
         }
       }
     });
