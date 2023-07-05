@@ -1,7 +1,7 @@
 console.info('chrome-ext template-react-ts content script')
 
 function countTotalBug(assignee: string) {
-    const domList = Array.from(document.querySelectorAll('.sc-1s82hq4-0.eYSScX'));
+    const domList = Array.from(document.querySelectorAll('.w4juse-0.jytlkD'));
 
     let totalBug = 0;
 
@@ -28,6 +28,7 @@ chrome.runtime.onMessage.addListener(
       console.log(sender.tab ?
                   "from a content script:" + sender.tab.url :
                   "from the extension");
+      console.log('request', request)
       if (request.command == "COUNT_TOTAL_BUG") {
         const assignee = request.payload.assignee
         sendResponse({totalBug: countTotalBug(assignee)});
