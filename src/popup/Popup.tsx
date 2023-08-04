@@ -11,7 +11,9 @@ const assignees: any = {
   'Trần Long Vũ': 'Trần Long Vũ',
   'Đặng Thành Long': 'Đặng Thành Long',
   'Phan Trung Điền': 'Phan Trung Điền',
-  'vũ ngọc nga': 'Vũ Thị Nga'
+  'vũ ngọc nga': 'Vũ Thị Nga',
+  'Trịnh Vũ Hoàng Linh': 'Trịnh Vũ Hoàng Linh',
+  'thinb': 'thinb'
 }
 
 const keys = Object.keys(assignees);
