@@ -9,7 +9,7 @@ const assignees: any = {
   'Nguyễn Hoàng Quân': 'Nguyễn Hoàng Quân',
   'Hoàng Thanh Tùng': 'Hoàng Thanh Tùng',
   'Trần Long Vũ': 'Trần Long Vũ',
-  'Đặng Thành Long': 'Đặng Thành Long',
+  'Thành Long Đặng': 'Đặng Thành Long',
   'Phan Trung Điền': 'Phan Trung Điền',
   'vũ ngọc nga': 'Vũ Thị Nga',
   'Trịnh Vũ Hoàng Linh': 'Trịnh Vũ Hoàng Linh',

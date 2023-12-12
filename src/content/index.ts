@@ -8,7 +8,7 @@ function countTotalBug(assignee: string) {
     domList.forEach((x) => {
       let haveBug = x.querySelector('img[alt="Issue type: Bug"]');
       if (haveBug) {
-        let avatarDom = x.querySelector('.css-1gr7gcv');
+        let avatarDom = x.querySelector('.css-13ep12v');
 
         if (avatarDom) {
             const alt = avatarDom.getAttribute('alt');
