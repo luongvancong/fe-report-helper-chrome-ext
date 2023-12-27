@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import './Popup.css';
 
+// key: value
 const assignees: any = {
   'Nguyen Van Do': 'Nguyễn Văn Đỏ',
   'Trần Hùng': "Trần Hùng",
@@ -12,8 +13,8 @@ const assignees: any = {
   'Thành Long Đặng': 'Đặng Thành Long',
   'Phan Trung Điền': 'Phan Trung Điền',
   'vũ ngọc nga': 'Vũ Thị Nga',
-  'Trịnh Vũ Hoàng Linh': 'Trịnh Vũ Hoàng Linh',
-  'thinb': 'thinb'
+  'longdt.gobiz': 'Đỗ Thành Long',
+  'Tran Quang Huy': 'Trần Quang Huy'
 }
 
 const keys = Object.keys(assignees);
