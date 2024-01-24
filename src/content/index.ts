@@ -1,7 +1,7 @@
 console.info('chrome-ext template-react-ts content script')
 
 function countTotalBug(assignee: string) {
-    const domList = Array.from(document.querySelectorAll('.w4juse-0.jytlkD'));
+    const domList = Array.from(document.querySelectorAll('[data-testid="issue.issue-view.views.common.child-issues-panel.issues-container"] > ul > div'));
 
     let totalBug = 0;
 
